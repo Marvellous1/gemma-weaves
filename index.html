@@ -63,10 +63,10 @@
 
     <!-- Home -->
     <div class="background">
-      <div class="container background-top">
+      <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-lg-6 justify-content-start">
-            <div class="text-wrapper">
+            <div class="text-wrapper mt-n5 pt-n5">
               <h1>Live your best life. <br />Leave the hair to us</h1>
               <p>Buy now and claim your free sample</p>
               <button class="btn bg-white black">Buy Now</button>
@@ -103,7 +103,9 @@
 
     <div class="container">
       <div class="row d-flex align-items-end service-hour">
-        <div class="col-lg-5 col-sm-12 text-center">
+        <div
+          class="col-lg-5 col-sm-12 text-center d-none d-lg-block d-xl-block"
+        >
           <h3>Service Hours</h3>
           <button class="btn service-hour-btn">All Services</button>
           <div class="service-hour-content mt-n3">
@@ -130,8 +132,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-7 col-sm-12">
-          <div class="service-hour-form">
+        <div class="col-lg-7 col-md-12 col-sm-12">
+          <div class="service-hour-form container custom-padding">
             <h4 class="service-hour-header">Book An Appointment Today!</h4>
             <form>
               <div class="form-group">
@@ -163,31 +165,37 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- Why Gamma  -->
-      <div class="container section">
+    <!-- Why Gamma  -->
+    <div class="container section">
+      <div class="custom-container">
         <div class="custom-container">
           <h3>Why Gemma?</h3>
-          <div class="row gemma-row">
-            <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 bg-primary">
               <img
                 class="gemma-img"
                 src="./images/IMG_20200627_1419262.png"
                 alt="why-gemma-1"
               />
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 align-self-center">
+            <div
+              class="col-sm-12 col-md-12 col-lg-6 align-self-center bg-danger"
+            >
               <h4 class="black">Gemma is all Natural</h4>
               <p class="black">
                 Cras ultricies ligula sed magna dictum porta. Donec sollicitudin
                 molestie malesuada. Vivamus suscipit tortor eget felis porttitor
                 volutpat.
               </p>
-              <button class="btn gemma-btn">Buy Now</button>
+              <button class="btn gemma-btn d-none d-lg-block d-xl-block">
+                Buy Now
+              </button>
             </div>
           </div>
-
-          <div class="row gemma-row">
+          <div class="row-divider"></div>
+          <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6 align-self-center">
               <h4 class="black">
                 Gemma Offers simple yet elegant hair soultions
@@ -197,21 +205,23 @@
                 molestie malesuada. Vivamus suscipit tortor eget felis porttitor
                 volutpat.
               </p>
-              <button class="btn gemma-btn">Buy Now</button>
+              <button class="btn gemma-btn d-none d-lg-block d-xl-block">
+                Buy Now
+              </button>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6">
               <img
-                class="gemma-img"
+                class="gemma-img d-none d-lg-block d-xl-block"
                 src="./images/IMG_20200627_141803.png"
                 alt="why-gemma-1"
               />
             </div>
           </div>
-
-          <div class="row gemma-row">
+          <div class="row-divider"></div>
+          <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6">
               <img
-                class="gemma-img"
+                class="gemma-img d-none d-lg-block d-xl-block"
                 src="./images/IMG_20200627_1419262.png"
                 alt="why-gemma-1"
               />
@@ -223,7 +233,9 @@
                 molestie malesuada. Vivamus suscipit tortor eget felis porttitor
                 volutpat.
               </p>
-              <button class="btn gemma-btn">Buy Now</button>
+              <div class="text-sm-center text-md-center">
+                <button class="btn gemma-btn">Buy Now</button>
+              </div>
             </div>
           </div>
         </div>
@@ -246,7 +258,7 @@
                 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                 labore et dolore magna
               </p>
-              <button class="btn gemma-btn btn-block">
+              <button class="btn gemma-btn btn-block d-flex align-self-end">
                 Book An Appointment
               </button>
             </div>
@@ -316,12 +328,12 @@
               <div class="col-lg-12">
                 <img
                   src="./images/brown-wooden-center-table-584399.jpg"
-                  class="img-fluid"
+                  class="img-fluid d-none d-lg-block d-xl-block"
                   alt="salon"
                 />
               </div>
-              <div class="row-divider"></div>
             </div>
+            <div class="row-divider"></div>
             <div class="row">
               <div class="col-lg-12">
                 <img
@@ -366,7 +378,7 @@
       <div class="custom-container">
         <h3>Meet Our Proffesional</h3>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-sm-6 col-md-6">
             <div class="card">
               <img
                 src="./images/woman-in-blue-denim-jacket-holding-black-leather-bag-3993472.jpg"
@@ -379,7 +391,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-sm-6 col-md-6 d-none d-lg-block d-xl-block">
             <div class="card">
               <img
                 src="./images/woman-in-blue-denim-jacket-holding-black-leather-bag-3993472.jpg"
@@ -392,7 +404,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-sm-6 col-md-6 d-none d-lg-block d-xl-block">
             <div class="card">
               <img
                 src="./images/woman-in-blue-denim-jacket-holding-black-leather-bag-3993472.jpg"
@@ -405,31 +417,34 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="row-divider"></div>
-        <p class="black text-justify">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam
-          aliquam sem et tortor consequat id. Suspendisse in est ante in. Lectus
-          proin nibhhabitant morbi. consequat id. Suspendisse in est ante in.
-          Lectus proin nibhhabitant morbi. Lectus proin nibhhabitant morbi.
-          Suspendisse Lectus proin nibhhabitant morbi. Lectus proin nibhhabitant
-          morbi. Suspendisse proin etur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Nam aliquam sem et tortor
-          consequat id. Suspendisse in est ante in. Lectus proin nibhhabitant
-          morbi. consequat id. Suspendisse in est ante in. Lectus proin
-          nibhhabitant morbi. Lectus proin nibhhabitant morbi. Suspendisse
-          Lectus proin nibhhabitant morbi. Lectus proin nibhhabitant morbi.
-          Suspendisse proin etur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Nam aliquam sem et tortor
-          consequat id. Suspendisse in est ante in. Lectus proin nibhhabitant
-          morbi. consequat id. Suspendisse in est ante in. Lectus proin
-          nibhhabitant morbi. Lectus proin nibhhabitant morbi. Suspendisse
-          Lectus proin nibhhabitant morbi. Lectus
-        </p>
-        <div class="row-divider"></div>
-        <div class="text-center">
-          <button class="btn gemma-btn">About Us</button>
+          <div class="col-lg-12 col-sm-6 col-md-6">
+            <div class="row-divider"></div>
+            <p class="black text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam
+              aliquam sem et tortor consequat id. Suspendisse in est ante in.
+              Lectus proin nibhhabitant morbi. consequat id. Suspendisse in est
+              ante in. Lectus proin nibhhabitant morbi. Lectus proin
+              nibhhabitant morbi. Suspendisse Lectus proin nibhhabitant morbi.
+              Lectus proin nibhhabitant morbi. Suspendisse proin etur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Nam aliquam sem et tortor consequat id. Suspendisse in est
+              ante in. Lectus proin nibhhabitant morbi. consequat id.
+              Suspendisse in est ante in. Lectus proin nibhhabitant morbi.
+              Lectus proin nibhhabitant morbi. Suspendisse Lectus proin
+              nibhhabitant morbi. Lectus proin nibhhabitant morbi. Suspendisse
+              proin etur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Nam aliquam sem et tortor consequat
+              id. Suspendisse in est ante in. Lectus proin nibhhabitant morbi.
+              consequat id. Suspendisse in est ante in. Lectus proin
+              nibhhabitant morbi. Lectus proin nibhhabitant morbi. Suspendisse
+              Lectus proin nibhhabitant morbi. Lectus
+            </p>
+            <div class="row-divider"></div>
+            <div class="text-center">
+              <button class="btn gemma-btn">About Us</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -437,45 +452,50 @@
     <!-- Satisfied  -->
 
     <div class="container section">
-    <div class="custom-container">
-      <h3>Hear From our Satisfied Clients</h3>
-      <div class="row d-flex align-items-center no-gutters">
-        <div class="col-lg-7">
-          <div class="satisfied-text">
-            <h5>
-              Amazing Experience, <br />
-              Great Product and Service
-            </h5>
-            <p>
-              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-              Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed
-              magna dictum porta. Nulla quis lorem ut libero malesuada feugiat.
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-              Donec rutrum congue leo eget malesuada. Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit. Donec rutrum congue leo eget
-            </p>
-            <h5>Morris Bell</h5>
+      <div class="custom-container">
+        <div class="custom-container">
+          <h3>Hear From our Satisfied Clients</h3>
+          <div class="row d-flex align-items-center no-gutters">
+            <div class="col-lg-7">
+              <div class="satisfied-text">
+                <h5>
+                  Amazing Experience, <br />
+                  Great Product and Service
+                </h5>
+                <p>
+                  Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                  amet Nulla porttitor accumsan tincidunt. Cras ultricies ligula
+                  sed magna dictum porta. Nulla quis lorem ut libero malesuada
+                  feugiat. Curabitur arcu erat, accumsan id imperdiet et,
+                  porttitor at sem. Donec rutrum congue leo eget malesuada.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  rutrum congue leo eget
+                </p>
+                <h5>Morris Bell</h5>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="satisfied-img">
+                <img
+                  src="./images/IMG_20200627_141821.png"
+                  alt="satisfied-img"
+                />
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-lg-5">
-          <div class="satisfied-img">
-            <img src="./images/IMG_20200627_141821.png" alt="satisfied-img" />
-          </div>
-        </div>
-      </div>
       </div>
     </div>
 
     <!-- Explore -->
 
     <div class="container section">
-    <div class="custom-container">
       <h3>Explore our Products</h3>
       <div class="row">
         <div class="col-lg-4">
           <div class="card product-card">
             <img
-              src="./images/plastic-bottle-of-yellow-body-oil-4465828.jpg"
+              src="./images/blank-cream-tube-on-fresh-chestnut-leaf-4465124.jpg"
               alt="tube"
               class="card-img-top product-1"
             />
@@ -484,54 +504,88 @@
             </div>
             <button class="btn product-price">$50</button>
           </div>
-          <button class="btn gemma-btn">Add T0 cart</button>
+          <button class="btn gemma-btn mt-0">Add To cart</button>
+        </div>
+        <div class="col-lg-4">
+          <div class="card product-card">
+            <img
+              src="./images/plastic-bottle-of-yellow-body-oil-4465828.jpg"
+              alt="tube"
+              class="card-img-top product-1"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Hair Oil</h5>
+            </div>
+            <button class="btn product-price">$50</button>
+          </div>
+          <button class="btn gemma-btn mt-0">Add To cart</button>
+        </div>
+        <div class="col-lg-4">
+          <div class="card product-card">
+            <img
+              src="./images/blank-cream-tube-on-fresh-chestnut-leaf-4465124.jpg"
+              alt="tube"
+              class="card-img-top product-1"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Hair Conditional</h5>
+            </div>
+            <button class="btn product-price">$50</button>
+          </div>
+          <button class="btn gemma-btn mt-0">Add To cart</button>
         </div>
       </div>
     </div>
 
     <!-- Hairstyles -->
     <div class="container section">
-    <div class="custom-container">
-      <h3>Make Amazing Hairstyles <br />with Gemma</h3>
-      <div class="row align-items-center">
-        <div class="col-lg-4">
-          <img
-            src="./images/IMG_20200627_141821 (1).png"
-            alt="hairstyle1"
-            class="hairstyle-long"
-          />
-        </div>
-        <div class="col-lg-4">
-          <div class="row">
-            <img
-              src="./images/IMG_20200627_141743.jpg"
-              class="hairstyle-long"
-              alt=""
-            />
+      <div class="custom-container">
+        <div class="custom-container">
+          <h3>Make Amazing Hairstyles <br />with Gemma</h3>
+          <div class="row align-items-center">
+            <div class="col-lg-4">
+              <img
+                src="./images/IMG_20200627_141821 (1).png"
+                alt="hairstyle1"
+                class="hairstyle-long"
+              />
+            </div>
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img
+                    src="./images/IMG_20200627_141743.jpg"
+                    class="hairstyle-long"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="row-divider"></div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <img
+                    src="./images/IMG_20200627_141942.jpg"
+                    class="hairstyle-short"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="./images/IMG_20200627_141840 (1).png"
+                class="hairstyle-long"
+                alt="hairstyle 4"
+              />
+            </div>
           </div>
-          <div class="row-divider"></div>
-          <div class="row">
-            <img
-              src="./images/IMG_20200627_141942.jpg"
-              class="hairstyle-short"
-              alt=""
-            />
-          </div>
         </div>
-        <div class="col-lg-4">
-          <img
-            src="./images/IMG_20200627_141840 (1).png"
-            class="hairstyle-long"
-            alt="hairstyle 4"
-          />
-        </div>
-      </div>
       </div>
     </div>
 
     <!-- Footer -->
     <div class="footer-background">
-      <div class="container">
+      <div class="container py-5">
         <div class="row justify-content-between">
           <div class="col-lg-7">
             <p class="footer-header">Sign up for our Newsletter</p>
@@ -540,12 +594,52 @@
               opportunities
             </p>
           </div>
-          <div class="col-lg-5"></div>
+          <div class="col-lg-5">
+            <p class="footer-header">Email Address</p>
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="example@email.com"
+                aria-label="example@email.com"
+                id="footer-input"
+                aria-describedby="button-addon2"
+              />
+              <div class="input-group-append">
+                <button class="btn footer-btn" type="button" id="button-addon2">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
+        <div style="margin: 40px;"></div>
         <div class="row justify-content-between">
           <div class="col-lg-6">
             <p class="footer-header">Gemma Weaves</p>
-            <p class="footer-text">Your favourite first <br />weave sopt</p>
+            <p class="footer-text">Your favourite first <br />weave spot</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="row d-flex justify-content-between">
+              <div class="col-4">
+                <p class="footer-header">Quick links</p>
+                <p class="footer-text">Contact Us</p>
+                <p class="footer-text">About Us</p>
+                <p class="footer-text">Careers</p>
+              </div>
+              <div class="col-4">
+                <p class="footer-header">Services</p>
+                <p class="footer-text">Delivery</p>
+                <p class="footer-text">Purchase</p>
+                <p class="footer-text">Consult Specialist</p>
+              </div>
+              <div class="col-4">
+                <p class="footer-header">Social Media</p>
+                <p class="footer-text">Facebook</p>
+                <p class="footer-text">Twitter</p>
+                <p class="footer-text">LinkedIn</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
