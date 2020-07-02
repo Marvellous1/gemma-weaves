@@ -48,6 +48,11 @@ body {
   bottom: -50px;
 }
 
+.text-wrapper-desktop {
+  margin-top: -70px !important;
+  padding-top: -70px !important;
+}
+
 .carousel-inner {
   margin-bottom: 50px;
 }
@@ -171,8 +176,7 @@ p {
 }
 
 .custom-padding {
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding: 50px;
 }
 
 .service-hour-btn {
@@ -378,5 +382,14 @@ p {
 
   .custom-container {
     margin: 0px 0px 0px 0px;
+  }
+
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+
+  .custom-padding {
+    margin: 50px 0px 50px 0px;
   }
 }
