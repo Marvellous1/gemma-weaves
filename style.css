@@ -204,10 +204,11 @@ p {
     background-color: var(--custom-green);
 }
 
+/* 
 .product-1 {
     width: auto;
     height: 486px;
-}
+} */
 
 .product-card {
     position: relative;
@@ -311,8 +312,12 @@ p {
         font-size: 24px;
     }
 
-    p {
+    h5 {
         font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
     }
 
     .footer-header {
