@@ -21,8 +21,25 @@ body {
 }
 
 .nav-link {
-    margin-right: 50px;
+    margin-left: 50px;
+    transition: 0.3s ease;
+    color: var(--custom-blue) !important;
 }
+
+
+.nav-link:hover,
+.active {
+    border-bottom: 3px solid rgb(3, 25, 38);
+    border-image: linear-gradient(to right, rgba(108, 219, 141, 0) 25%, rgba(3, 25, 38, 1) 25%, rgba(3, 25, 38, 1) 75%, rgba(108, 219185, 141, 0) 75%);
+    border-image-slice: 1;
+}
+
+/* .carousel-control-prev,
+.carousel-control-next {
+    align-self: flex-end;
+    /* Aligns it at the bottom */
+} */
+
 
 .black {
     color: var(--custom-black);
