@@ -232,6 +232,11 @@ p {
     background-color: var(--custom-blue);
 }
 
+.hairstyle-mobile {
+    width: 100vw;
+    height: auto;
+}
+
 .prof-sub-text {
     font-size: 16px;
     font-weight: 600;
