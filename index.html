@@ -21,7 +21,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://use.fontawesome.com/140f2bfb6b.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Gemma Weaves</title>
   </head>
   <body>
@@ -667,10 +667,18 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                   rutrum congue leo eget
                 </p>
-                <h5>Morris Bell</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h5>Morris Bell</h5>
+                  <img
+                    src="./images/IMG_20200627_141942.jpg"
+                    alt="satisfied-img"
+                    class="img-thumbnail rounded-circle d-lg-none"
+                    style="height: 50px; width: 50px;"
+                  />
+                </div>
               </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-5 d-none d-lg-block d-xl-block">
               <div class="satisfied-img">
                 <img
                   src="./images/IMG_20200627_141821.png"
@@ -866,5 +874,13 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script src="https://use.fontawesome.com/140f2bfb6b.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 0,
+        once: false,
+      });
+    </script>
   </body>
 </html>
