@@ -118,6 +118,14 @@ p {
     background: var(--custom-green);
 }
 
+.mobile-social-icons {
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background: var(--custom-green);
+}
+
+
 .service-hour {
     margin-top: -100px;
 }
@@ -263,6 +271,21 @@ p {
 /* Mobile */
 
 @media (max-width: 576px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    .background {
+        position: relative;
+        height: 520px;
+        background: linear-gradient(0deg, #031926, #031926), #866a55;
+    }
+
+    .background-image {
+        width: 350px;
+        height: auto;
+    }
+
     h4 {
         font-size: 25px;
         font-weight: bold;
@@ -279,6 +302,14 @@ p {
 /* Tablet */
 
 @media (max-width: 992px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
     h4 {
         font-size: 25px;
         font-weight: bold;
