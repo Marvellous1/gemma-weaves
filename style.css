@@ -226,8 +226,8 @@ p {
 }
 
 .hairstyle-long {
-    width: 250px;
-    height: 375px;
+    /* width: 250px;
+    height: 375px; */
     background-color: var(--custom-blue);
 }
 
@@ -236,10 +236,11 @@ p {
     font-weight: 600;
 }
 
+/* 
 .hairstyle-short {
     width: 250px;
     height: 250px;
-}
+} */
 
 .footer-background {
     background-color: var(--custom-blue);
@@ -270,7 +271,7 @@ p {
 
 /* Mobile */
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     h1 {
         font-size: 18px;
     }
@@ -297,18 +298,31 @@ p {
         margin: 0px 0px 0px 0px;
     }
 
-}
+} */
 
 /* Tablet */
 
 @media (max-width: 992px) {
     h1 {
+        font-size: 28px;
+    }
+
+    h3 {
         font-size: 24px;
     }
 
     p {
         font-size: 16px;
     }
+
+    .footer-header {
+        font-size: 18px;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
 
     h4 {
         font-size: 25px;
